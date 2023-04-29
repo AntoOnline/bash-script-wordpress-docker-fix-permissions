@@ -30,3 +30,9 @@ If the script is not working as expected, try the following troubleshooting step
 ## Disclaimer
 
 This script is provided as-is and is intended for use at your own risk. Always backup your data before making changes to your file and directory permissions. The author is not responsible for any damage or loss caused by the use of this script.
+
+## Want to connect?
+
+Feel free to contact me on [Twitter](https://twitter.com/OnlineAnto) or [LinkedIn](https://www.linkedin.com/in/anto-online) if you have any questions or suggestions.
+
+Or just visit my [website](https://anto.online) to see what I do.

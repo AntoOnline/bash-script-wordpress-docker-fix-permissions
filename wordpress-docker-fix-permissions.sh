@@ -33,7 +33,7 @@ for container_name in $container_names; do
 
     echo "Setting group permissions..."
     # Set the correct group permissions for wp-content directory and its subdirectories
-    docker exec -it $container_name bash -c "chown -R :www-data ${wordpress_root}wp-content"
+    docker exec -it $container_name bash -c "chown -R www-data:www-data ${wordpress_root}wp-content"
     docker exec -it $container_name bash -c "find ${wordpress_root}wp-content -type d -exec chmod 775 {} \;"
     docker exec -it $container_name bash -c "find ${wordpress_root}wp-content -type f -exec chmod 664 {} \;"
 
